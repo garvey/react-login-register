@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Component 1`] = `
+"<MemoryRouter>
+  <Router history={{...}}>
+    <Forgot>
+      <Container tag=\\"div\\">
+        <div className=\\"container\\">
+          <Col xs={12} md={{...}} lg={{...}} className=\\"my-auto mx-auto\\" tag=\\"div\\" widths={{...}}>
+            <div className=\\"my-auto mx-auto col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4\\">
+              <Form onSubmit={[Function]} tag=\\"form\\">
+                <form onSubmit={[Function]} className=\\"\\">
+                  <div className=\\"text-center pt-4 pb-4\\">
+                    <Link to=\\"/\\">
+                      <LinkAnchor href=\\"/\\" navigate={[Function: navigate]}>
+                        <a href=\\"/\\" onClick={[Function: onClick]}>
+                          <img src=\\"logo.png\\" alt=\\"Company Logo\\" className=\\"img-fluid logo\\" />
+                        </a>
+                      </LinkAnchor>
+                    </Link>
+                  </div>
+                  <Card className=\\"login\\" tag=\\"div\\">
+                    <div className=\\"login card\\">
+                      <CardBody tag=\\"div\\">
+                        <div className=\\"card-body\\">
+                          <h5>
+                            Forgot your password?
+                          </h5>
+                          <small>
+                            Enter your email below and we&#39;ll reset your password.
+                          </small>
+                          <FormGroup className=\\"pt-5\\" tag=\\"div\\">
+                            <div className=\\"pt-5 form-group\\">
+                              <Label tag=\\"label\\" widths={{...}}>
+                                <label htmlFor={[undefined]} className=\\"\\">
+                                  Your Email Address
+                                </label>
+                              </Label>
+                              <input name=\\"email\\" />
+                            </div>
+                          </FormGroup>
+                          <Button outline={true} color=\\"success\\" block={true} type=\\"submit\\" tag=\\"button\\">
+                            <button type=\\"submit\\" className=\\"btn btn-outline-success btn-block\\" onClick={[Function: bound onClick]} aria-label={{...}}>
+                              Reset Password
+                            </button>
+                          </Button>
+                          <FormGroup tag=\\"div\\">
+                            <div className=\\"form-group\\">
+                              <p className=\\"pt-4 text-center\\">
+                                Back to 
+                                <Link to=\\"/login\\">
+                                  <LinkAnchor href=\\"/login\\" navigate={[Function: navigate]}>
+                                    <a href=\\"/login\\" onClick={[Function: onClick]}>
+                                      Login
+                                    </a>
+                                  </LinkAnchor>
+                                </Link>
+                              </p>
+                            </div>
+                          </FormGroup>
+                        </div>
+                      </CardBody>
+                    </div>
+                  </Card>
+                </form>
+              </Form>
+            </div>
+          </Col>
+        </div>
+      </Container>
+    </Forgot>
+  </Router>
+</MemoryRouter>"
+`;

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Component 1`] = `
+"<MemoryRouter>
+  <Router history={{...}}>
+    <Register>
+      <Container tag=\\"div\\">
+        <div className=\\"container\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col xs={12} md={{...}} lg={{...}} className=\\"my-auto mx-auto\\" tag=\\"div\\" widths={{...}}>
+                <div className=\\"my-auto mx-auto col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2\\">
+                  <Form onSubmit={[Function]} tag=\\"form\\">
+                    <form onSubmit={[Function]} className=\\"\\">
+                      <div className=\\"text-center pt-4 pb-4\\">
+                        <Link to=\\"/\\">
+                          <LinkAnchor href=\\"/\\" navigate={[Function: navigate]}>
+                            <a href=\\"/\\" onClick={[Function: onClick]}>
+                              <img src=\\"logo.png\\" alt=\\"Company Logo\\" className=\\"img-fluid logo\\" />
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </div>
+                      <Card className=\\"register\\" tag=\\"div\\">
+                        <div className=\\"register card\\">
+                          <CardBody tag=\\"div\\">
+                            <div className=\\"card-body\\">
+                              <Row tag=\\"div\\">
+                                <div className=\\"row\\">
+                                  <Col xs={12} sm={6} tag=\\"div\\" widths={{...}}>
+                                    <div className=\\"col-12 col-sm-6\\">
+                                      <h2>
+                                        Register
+                                      </h2>
+                                    </div>
+                                  </Col>
+                                  <Col xs={12} sm={6} className=\\"align-end\\" tag=\\"div\\" widths={{...}}>
+                                    <div className=\\"align-end col-12 col-sm-6\\">
+                                      <small className=\\"float-sm-right\\">
+                                        Have an account? 
+                                        <Link to=\\"/login\\">
+                                          <LinkAnchor href=\\"/login\\" navigate={[Function: navigate]}>
+                                            <a href=\\"/login\\" onClick={[Function: onClick]}>
+                                              Sign in here
+                                            </a>
+                                          </LinkAnchor>
+                                        </Link>
+                                      </small>
+                                    </div>
+                                  </Col>
+                                </div>
+                              </Row>
+                              <Row className=\\"divider\\" tag=\\"div\\">
+                                <div className=\\"divider row\\">
+                                  <Col xs={12} sm={4} tag=\\"div\\" widths={{...}}>
+                                    <div className=\\"col-12 col-sm-4\\">
+                                      <h5>
+                                        Personal Details
+                                      </h5>
+                                    </div>
+                                  </Col>
+                                  <Col xs={12} sm={6} tag=\\"div\\" widths={{...}}>
+                                    <div className=\\"col-12 col-sm-6\\">
+                                      <FormGroup tag=\\"div\\">
+                                        <div className=\\"form-group\\">
+                                          <Label tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor={[undefined]} className=\\"\\">
+                                              Full Name
+                                            </label>
+                                          </Label>
+                                          <input name=\\"name\\" />
+                                        </div>
+                                      </FormGroup>
+                                    </div>
+                                  </Col>
+                                </div>
+                              </Row>
+                              <Row className=\\"divider\\" tag=\\"div\\">
+                                <div className=\\"divider row\\">
+                                  <Col xs={12} sm={4} tag=\\"div\\" widths={{...}}>
+                                    <div className=\\"col-12 col-sm-4\\">
+                                      <h5>
+                                        Login Details
+                                      </h5>
+                                    </div>
+                                  </Col>
+                                  <Col xs={12} sm={6} tag=\\"div\\" widths={{...}}>
+                                    <div className=\\"col-12 col-sm-6\\">
+                                      <FormGroup tag=\\"div\\">
+                                        <div className=\\"form-group\\">
+                                          <Label tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor={[undefined]} className=\\"\\">
+                                              Email
+                                            </label>
+                                          </Label>
+                                          <input name=\\"email\\" />
+                                        </div>
+                                      </FormGroup>
+                                      <FormGroup tag=\\"div\\">
+                                        <div className=\\"form-group\\">
+                                          <Label tag=\\"label\\" widths={{...}}>
+                                            <label htmlFor={[undefined]} className=\\"\\">
+                                              Password
+                                            </label>
+                                          </Label>
+                                          <input name=\\"password\\" type=\\"password\\" />
+                                        </div>
+                                      </FormGroup>
+                                    </div>
+                                  </Col>
+                                </div>
+                              </Row>
+                              <Row className=\\"divider footer\\" tag=\\"div\\">
+                                <div className=\\"divider footer row\\">
+                                  <Col tag=\\"div\\" widths={{...}}>
+                                    <div className=\\"col\\">
+                                      <div className=\\"btn-group float-right\\">
+                                        <Button color=\\"success\\" outline={true} block={true} type=\\"submit\\" tag=\\"button\\">
+                                          <button type=\\"submit\\" className=\\"btn btn-outline-success btn-block\\" onClick={[Function: bound onClick]} aria-label={{...}}>
+                                            Register
+                                          </button>
+                                        </Button>
+                                      </div>
+                                    </div>
+                                  </Col>
+                                </div>
+                              </Row>
+                            </div>
+                          </CardBody>
+                        </div>
+                      </Card>
+                    </form>
+                  </Form>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </Register>
+  </Router>
+</MemoryRouter>"
+`;

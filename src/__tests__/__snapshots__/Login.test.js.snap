@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render Component 1`] = `
+"<MemoryRouter>
+  <Router history={{...}}>
+    <Login>
+      <Container tag=\\"div\\">
+        <div className=\\"container\\">
+          <Row tag=\\"div\\">
+            <div className=\\"row\\">
+              <Col xs={12} md={{...}} lg={{...}} className=\\"my-auto mx-auto\\" tag=\\"div\\" widths={{...}}>
+                <div className=\\"my-auto mx-auto col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4\\">
+                  <Form onSubmit={[Function]} tag=\\"form\\">
+                    <form onSubmit={[Function]} className=\\"\\">
+                      <div className=\\"text-center pt-4 pb-4\\">
+                        <Link to=\\"/\\">
+                          <LinkAnchor href=\\"/\\" navigate={[Function: navigate]}>
+                            <a href=\\"/\\" onClick={[Function: onClick]}>
+                              <img src=\\"logo.png\\" alt=\\"Company Logo\\" className=\\"img-fluid logo\\" />
+                            </a>
+                          </LinkAnchor>
+                        </Link>
+                      </div>
+                      <Card className=\\"login\\" tag=\\"div\\">
+                        <div className=\\"login card\\">
+                          <CardBody tag=\\"div\\">
+                            <div className=\\"card-body\\">
+                              <FormGroup tag=\\"div\\">
+                                <div className=\\"form-group\\">
+                                  <Label tag=\\"label\\" widths={{...}}>
+                                    <label htmlFor={[undefined]} className=\\"\\">
+                                      Email
+                                    </label>
+                                  </Label>
+                                  <input name=\\"email\\" />
+                                </div>
+                              </FormGroup>
+                              <FormGroup tag=\\"div\\">
+                                <div className=\\"form-group\\">
+                                  <Label tag=\\"label\\" widths={{...}}>
+                                    <label htmlFor={[undefined]} className=\\"\\">
+                                      Password
+                                    </label>
+                                  </Label>
+                                  <input name=\\"password\\" type=\\"password\\" />
+                                </div>
+                              </FormGroup>
+                              <Button outline={true} color=\\"success\\" block={true} type=\\"submit\\" tag=\\"button\\">
+                                <button type=\\"submit\\" className=\\"btn btn-outline-success btn-block\\" onClick={[Function: bound onClick]} aria-label={{...}}>
+                                  Sign in
+                                </button>
+                              </Button>
+                              <FormGroup tag=\\"div\\">
+                                <div className=\\"form-group\\">
+                                  <p className=\\"pt-2 text-center\\">
+                                    <Link to=\\"/forgot\\">
+                                      <LinkAnchor href=\\"/forgot\\" navigate={[Function: navigate]}>
+                                        <a href=\\"/forgot\\" onClick={[Function: onClick]}>
+                                          Forgot your password?
+                                        </a>
+                                      </LinkAnchor>
+                                    </Link>
+                                  </p>
+                                </div>
+                              </FormGroup>
+                              <FormGroup tag=\\"div\\">
+                                <div className=\\"form-group\\">
+                                  <p className=\\"pt-2\\">
+                                    Don&#39;t have an account?
+                                     
+                                    <Link to=\\"/register\\">
+                                      <LinkAnchor href=\\"/register\\" navigate={[Function: navigate]}>
+                                        <a href=\\"/register\\" onClick={[Function: onClick]}>
+                                          Register here
+                                        </a>
+                                      </LinkAnchor>
+                                    </Link>
+                                  </p>
+                                </div>
+                              </FormGroup>
+                            </div>
+                          </CardBody>
+                        </div>
+                      </Card>
+                    </form>
+                  </Form>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </Login>
+  </Router>
+</MemoryRouter>"
+`;
