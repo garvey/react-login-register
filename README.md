@@ -1,13 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Starting project locally
 
-## Getting Started
+- In your terminal clone the repo `git clone https://github.com/garvey/react-login-register.git`
+- Inside the 'react-login-register' directory run `npm install`
+- Once installed run `npm start`
 
-- git clone 
-
-- npm install 
-
-- npm start
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Testing
 
-- npm test
+- In your directory run `npm test`
+
+## Responsive Breakpoints 
+
+- 320px 
+- 375px
+- 425px
+- 768px
+- 1024px
+
+## Plugins used
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
+react-router-dom (https://www.npmjs.com/package/react-router-dom)<br />
+reactstrap (https://www.npmjs.com/package/reactstrap)<br />
+node-sass (https://www.npmjs.com/package/node-sass)<br />
+react-icons (https://www.npmjs.com/package/react-icons)<br />
+react-hook-form (https://www.npmjs.com/package/react-hook-form)
