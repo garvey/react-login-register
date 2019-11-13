@@ -1,3 +1,7 @@
+## react-login-register
+
+A jumping off point for a register, login and forgot password flow. Built using create-react-app, react-hook-form and reactstrap.
+
 ## Starting project locally
 
 - In your terminal clone the repo `git clone https://github.com/garvey/react-login-register.git`
@@ -26,3 +30,8 @@ reactstrap (https://www.npmjs.com/package/reactstrap)<br />
 node-sass (https://www.npmjs.com/package/node-sass)<br />
 react-icons (https://www.npmjs.com/package/react-icons)<br />
 react-hook-form (https://www.npmjs.com/package/react-hook-form)
+
+
+## License
+
+react-login-register is open source! Get in touch if you use it to build anything :) 
