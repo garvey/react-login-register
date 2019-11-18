@@ -2,7 +2,7 @@
 
 A jumping off point for a register, login and forgot password flow. Built using create-react-app, react-hook-form and reactstrap.
 
-[https://github.com/garvey/react-login-register/blob/master/src/images/readme/login.png]
+![alt text](https://github.com/garvey/react-login-register/blob/master/src/images/readme/login.png)
 
 ## Starting project locally
 
