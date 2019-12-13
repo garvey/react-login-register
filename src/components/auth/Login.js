@@ -56,7 +56,7 @@ function Login(props) {
 
                 {errors.email && errors.email.message && (
                   <Alert color="info">
-                    <FiAlertCircle /> Please a valid email address
+                    <FiAlertCircle /> Please enter a valid email address
                   </Alert>
                 )}
                 <FormGroup>
